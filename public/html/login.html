@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+		<title></title>
+		<!-- BOOTSTRAP -->
+    	 <link rel="stylesheet" href="/node_modules/bootstrap/dist/css/bootstrap.css">
+    	<!-- LOGIN.CSS -->
+    	<link rel="stylesheet" href="/css/login.css">
+	</head>
+	<body>
+		<div class="container">
+			<!-- LOGIN FORM -->
+			<h1>Login</h1>
+			<form action="/auth/login" method="post">
+				<input class="username" type="email" name="username" placeholder="Email">
+				<input class="password" type="password" name="password" placeholder="Password">
+				<input class="submit" type="submit">
+			</form>
+			<!-- SIGNUP FORM -->
+			<h1>Signup</h1>
+			<form action="/auth/signup" method="post">
+				<input class="username" type="email" name="username" placeholder="Email">
+				<input class="password" type="password" name="password" placeholder="Password">
+				<input class="submit" type="submit">
+			</form>
+		</div>
+	</body>
+</html>
